@@ -24,7 +24,7 @@ public class Main {
 
     }
 
-    public static void findAndAddMedian(List<Integer> arr)
+    public static void findAndAddMedian(ArrayList<Integer> arr)
     {
         Collections.sort(arr);
 
@@ -37,7 +37,7 @@ public class Main {
 
     }
 
-    public static void addIn(double score, List<Integer> arr)
+    public static void addIn(double score, ArrayList<Integer> arr)
     {
         double a=Math.round(score);
         int value = (int)a;
